@@ -1,6 +1,6 @@
-  =>  Template Name    : THAMOS CUISINE - Coffee Shop HTML Template
+  =>  Website Name     : THAMOS CUISINE - Nigerian Restaurant
 
-  =>  Template Link    : https://htmlcodex.com/coffee-shop-html-template
+  =>  Website Purpose  : Nigerian dishes, event catering, meal subscriptions, and bulk meals
 
   =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
 
