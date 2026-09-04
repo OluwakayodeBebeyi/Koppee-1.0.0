@@ -1,0 +1,144 @@
+:root {
+    --primary: #D4AF37;
+    --secondary: #0B0B0B;
+    --light: #F7F4EA;
+    --dark: #0B0B0B;
+}
+
+.homepage-brand {
+    font-family: "Montserrat Brush", "Brush Script MT", "Segoe Script", cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: none;
+}
+
+.brand-lockup {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.site-logo {
+    width: 54px;
+    height: 54px;
+    object-fit: cover;
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+}
+
+@media (max-width: 575.98px) {
+    .site-logo {
+        width: 44px;
+        height: 44px;
+    }
+
+    .homepage-brand {
+        font-size: 1.45rem;
+    }
+}
+
+body,
+button,
+input,
+
+a:hover,
+a.text-primary:hover,
+a.text-primary:focus {
+    color: #B8941F !important;
+}
+
+.bg-primary,
+.btn-primary,
+.service-icon,
+.menu-price,
+.testimonial-carousel .owl-dot {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.bg-primary:hover {
+    background-color: #B8941F !important;
+    border-color: #B8941F !important;
+}
+
+.bg-secondary,
+.btn-secondary,
+.testimonial-carousel .owl-dot.active {
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary) !important;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+}
+
+.border-primary {
+    border-color: var(--primary) !important;
+}
+
+.text-dark {
+    color: var(--dark) !important;
+}
+
+.back-to-top i {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .45);
+    transition: transform .2s ease;
+}
+
+.back-to-top:hover i {
+    transform: translateY(-3px) scale(1.08);
+}
+
+.container-fluid.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: var(--secondary);
+}
+
+@media (max-width: 991.98px) {
+    .container-fluid.nav-bar {
+        position: fixed;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--light);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+.carousel-caption {
+    background: rgba(11, 11, 11, .7);
+}
+
+.section-title::after {
+    background: var(--primary);
+}
+
+.service-icon,
+.menu-price {
+    color: var(--secondary);
+}
+
+.reservation,
+.page-header,
+.offer,
+.footer {
+    background-image: linear-gradient(rgba(11, 11, 11, .9), rgba(11, 11, 11, .9)), url(../img/bg.jpg);
+}
